@@ -1,0 +1,73 @@
+---
+theme: slick
+title: uLinux
+baseURL: https://ulinux.org/
+copyright: "James Mills — All rights reserved."
+footnoteReturnLinkContents: ↩
+canonifyURLs: true
+preserveTaxonomyNames: true
+paginate: 10
+paginatePath: "page"
+params:
+  subtitle: "uLinux Cloud Native OS"
+  description: |
+    🐧a micro (µ)Linux Cloud Native OS designed for high performance,
+    minimal overhead and a small footprint.
+  favicon: "favicon.png"
+  showNavHeader: true
+  showFullContent: false
+  showEmptyPagination: false
+  showMetaDates: true
+  showMetaLinks: true
+  opengraph: false
+  schema: false
+  twitter_cards: false
+author:
+  name: James Mills
+  email: prologic@shortcircuit.net.au
+menu:
+  main:
+    - name: "Documentation"
+      title: "Documentation"
+      url: "/docs/"
+      weight: 1
+    - name: "Downloads"
+      title: "Downloads"
+      url: "/downloads/"
+      weight: 1
+    - name: "Packages"
+      title: "Packages"
+      url: "/pkgs/"
+      weight: 2
+    - name: "Ports"
+      title: "Ports"
+      url: "/ports/"
+      weight: 2
+    - identifier: "posts"
+      name: "Posts"
+      title: "All posts"
+      url: "/posts/"
+      weight: 3
+  meta:
+    - identifier: "categories"
+      name: "Categories"
+      weight: 1
+    - identifier: "series"
+      name: "Series"
+      weight: 2
+    - identifier: "tags"
+      name: "Tags"
+      weight: 3
+  footer:
+    - name: "GitHub"
+      title: "uLinux on Github"
+      url: "https://github.com/prologic/ulinux"
+      weight: 1
+    - name: "Packages"
+      title: "Packages"
+      url: "/pkgs/"
+      weight: 2
+    - name: "Ports"
+      title: "Ports"
+      url: "/ports/"
+      weight: 2
